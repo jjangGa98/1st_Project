@@ -1,6 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #navBar {
     margin-top: 20px;
     background-color: white;
+
 }
 
 #hIcon {
@@ -23,55 +30,56 @@
 
 #kakaoBtn {
     background-color: white;
-    width: 30px; 
-    height: 30px; 
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
-    border-style: none; 
+    border-style: none;
 }
 
 #facebookBtn {
-    background-color: white; 
-    width: 30px; 
-    height: 30px; 
+    background-color: white;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
-    border-style: none; 
+    border-style: none;
 }
 
 #instaIconBtn {
-    background-color: white; 
-    width: 30px; 
-    height: 30px; 
+    background-color: white;
+    width: 30px;
+    height: 30px;
     margin-right: 50px;
-    border-style: none; 
+    border-style: none;
 }
 
 #enterIconBtn1 {
-    background-color: white; 
-    width: 30px; 
+    background-color: white;
+    width: 30px;
     height: 30px;
-    margin-left: 100px;
+    margin-left: 150px;
     border-style: none;
 }
 
 #enterIconBtn2 {
-    background-color: white; 
-    width: 30px; 
+    background-color: white;
+    width: 30px;
     height: 30px;
     margin-left: 85px;
     border-style: none;
 }
 
 #enterIconBtn3 {
-    background-color: white; 
-    width: 30px; 
+    background-color: white;
+    width: 30px;
     height: 30px;
     margin-left: 70px;
     border-style: none;
 }
 
 #moto {
-    text-align: center; 
+    text-align: center;
     margin-top: 80px;
+    font-style: italic;
 }
 
 .card-group {
@@ -79,5 +87,11 @@
 }
 
 .footer {
-    margin-top: 50px;
+    margin-top: 140px;
+    height: 50px;
+}
+
+.container {
+    width: 1200px;
+    max-width: none !important;
 }
