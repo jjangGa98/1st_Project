@@ -1,0 +1,83 @@
+#navBar {
+    margin-top: 20px;
+    background-color: white;
+}
+
+#hIcon {
+    width: 45px;
+    margin-left: 50px;
+}
+
+.navbar-brand {
+    margin-left: 5px;
+    font-style: italic;
+}
+
+#searchIconBtn {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    margin-right: 80px;
+    border-style: none;
+}
+
+#kakaoBtn {
+    background-color: white;
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px;
+    border-style: none; 
+}
+
+#facebookBtn {
+    background-color: white; 
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px;
+    border-style: none; 
+}
+
+#instaIconBtn {
+    background-color: white; 
+    width: 30px; 
+    height: 30px; 
+    margin-right: 50px;
+    border-style: none; 
+}
+
+#enterIconBtn1 {
+    background-color: white; 
+    width: 30px; 
+    height: 30px;
+    margin-left: 100px;
+    border-style: none;
+}
+
+#enterIconBtn2 {
+    background-color: white; 
+    width: 30px; 
+    height: 30px;
+    margin-left: 85px;
+    border-style: none;
+}
+
+#enterIconBtn3 {
+    background-color: white; 
+    width: 30px; 
+    height: 30px;
+    margin-left: 70px;
+    border-style: none;
+}
+
+#moto {
+    text-align: center; 
+    margin-top: 80px;
+}
+
+.card-group {
+    margin-top: 70px;
+}
+
+.footer {
+    margin-top: 50px;
+}
