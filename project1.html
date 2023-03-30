@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div id="center123">
+    <div>
         <!-- width 1201 -->
         <nav class="navbar navbar-expand-lg -white" id="navBar">
             <div class="container-fluid">
@@ -47,81 +47,91 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
-                            style="width: 300px;">
+                        <input class="form-control me-2" id="searchText" type="search" placeholder="Search"
+                            aria-label="Search" style="width: 300px;">
                         <!-- 검색 아이콘 -->
-                        <button id="searchIconBtn"><img src="../images/검색 아이콘.png"
-                                style="width: 30px; height: 30px;"></button>
-                        <div class="btnGroup">
-                            <!-- 카카오 아이콘 -->
-                            <button id="kakaoBtn"><img src="../images/카카오 아이콘.png"
-                                    style="width: 30px; height: 30px;"></button>
-                            <!-- 페이스북 아이콘 -->
-                            <button id="facebookBtn"><img src="../images/페이스북 아이콘.png"
-                                    style="width: 30px; height: 30px;"></button>
-                            <!-- 인스타 아이콘 -->
-                            <button id="instaIconBtn"><img src="../images/인스타 아이콘.png"
-                                    style="width: 30px; height: 30px;"></button>
-                        </div>
-                    </form>
+                        <input type="button" id="img-searchIcon"/>
+                </div>
+                </form>
+            </div>
+    </div>
+    </nav>
+    <div class="container-sm" style="margin-top: 50px;">
+        <!-- Content here -->
+        <h2 id="moto">단 하루를 살더라도 내 공간에서</h2>
+
+        <!-- 네비게이션 탭 들어갈 부분 -->
+
+        <div class="card-group">
+            <div class="card" aria-label="https://www.naver.com">
+                <img src="../images/화이트 집2.png" class="card-img-top" style="height: 300px;">
+                <div class="card-body">
+                    <h5 class="card-title">심플</h5><br>
+                    <p class="card-text">#Homestagram #도시적 #침대 <br>#원룸꾸미기 #화이트 #액자</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
                 </div>
             </div>
-        </nav>
-        <div class="container-sm">
-            <!-- Content here -->
-            <h2 id="moto">단 하루를 살더라도 내 공간에서</h2>
-
-            <div class="card-group">
-                <div class="card" aria-label="https://www.naver.com">
-                    <img src="../images/화이트 집2.png" class="card-img-top" style="height: 300px;">
-                    <div class="card-body">
-                        <h5 class="card-title">심플</h5><br>
-                        <p class="card-text">#Homestagram #도시적 #침대 <br>#원룸꾸미기 #화이트 #액자</p>
-                        <p class="card-text"><small class="text-muted"></small></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../images/조명 집.png" class="card-img-top" style="height: 300px;">
-                    <div class="card-body">
-                        <h5 class="card-title">조명</h5><br>
-                        <p class="card-text">#자취방 #원룸꾸미기 #방꾸미기<br>#조명 #조명추천 #무드 #선반</p>
-                        <p class="card-text"><small class="text-muted"></small></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../images/모던 집.png" class="card-img-top" style="height: 300px;">
-                    <div class="card-body">
-                        <h5 class="card-title">모던</h5><br>
-                        <p class="card-text">#남성적 #화이트 #그레이 #블랙<br>#출근준비 #얼룩말 #맑은날씨</p>
-                        <p class="card-text"><small class="text-muted"></small></p>
-                    </div>
+            <div class="card">
+                <img src="../images/조명 집.png" class="card-img-top" style="height: 300px;">
+                <div class="card-body">
+                    <h5 class="card-title">조명</h5><br>
+                    <p class="card-text">#자취방 #원룸꾸미기 #방꾸미기<br>#조명 #조명추천 #무드 #선반</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
                 </div>
             </div>
-
-            <div class="footer">
-                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                    <p class="col-md-4 mb-0 text-muted">&copy; 2023 Homestagram, Inc</p>
-
-                    <a href="/"
-                        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-                        <svg class="bi me-2" width="40" height="32">
-                            <use xlink:href="#bootstrap" />
-                        </svg>
-                    </a>
-
-                    <ul class="nav col-md-4 justify-content-end">
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
-                    </ul>
-                </footer>
+            <div class="card">
+                <img src="../images/모던 집.png" class="card-img-top" style="height: 300px;">
+                <div class="card-body">
+                    <h5 class="card-title">모던</h5><br>
+                    <p class="card-text">#남성적 #화이트 #그레이 #블랙<br>#출근준비 #얼룩말 #맑은날씨</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                </div>
             </div>
-
-
-
         </div>
+
+        <div class="card-group">
+            <div class="card" aria-label="https://www.naver.com">
+                <img src="../images/화이트 집2.png" class="card-img-top" style="height: 300px;">
+                <div class="card-body">
+                    <h5 class="card-title">심플</h5><br>
+                    <p class="card-text">#Homestagram #도시적 #침대 <br>#원룸꾸미기 #화이트 #액자</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../images/조명 집.png" class="card-img-top" style="height: 300px;">
+                <div class="card-body">
+                    <h5 class="card-title">조명</h5><br>
+                    <p class="card-text">#자취방 #원룸꾸미기 #방꾸미기<br>#조명 #조명추천 #무드 #선반</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../images/모던 집.png" class="card-img-top" style="height: 300px;">
+                <div class="card-body">
+                    <h5 class="card-title">모던</h5><br>
+                    <p class="card-text">#남성적 #화이트 #그레이 #블랙<br>#출근준비 #얼룩말 #맑은날씨</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="footer">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+                </ul>
+                <p class="text-center text-muted">&copy; 2023 Homestagram, Inc</p>
+            </footer>
+        </div>
+
+
+
+    </div>
     </div>
 
 
