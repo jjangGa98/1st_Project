@@ -9,14 +9,14 @@ li {
 }
 
 .house {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 }
 
 /* 보여줄 구간의 높이와 넓이 설정 */
 #slideShow {
     width: 500px;
-    height: 300px;
+    height: 600px;
     position: relative;
     margin: 50px auto;
     overflow: hidden;
@@ -39,7 +39,7 @@ li {
 /* 첫 번째 슬라이드 가운데에 정렬하기위해
   첫번째 슬라이드만 margin-left조정 */
 .slides li:first-child {
-    margin-left: 100px;
+    margin-left: 18px;
 }
 
 /* 슬라이드들 옆으로 정렬 */
@@ -87,4 +87,8 @@ li {
 이전 화살표가 살짝 오른쪽으로 이동하는 효과*/
 .next:hover {
     transform: translateX(10px);
+}
+
+.dropdown-menu {
+    width: 160px;
 }
