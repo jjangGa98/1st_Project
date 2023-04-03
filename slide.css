@@ -39,7 +39,7 @@ li {
 /* 첫 번째 슬라이드 가운데에 정렬하기위해
   첫번째 슬라이드만 margin-left조정 */
 .slides li:first-child {
-    margin-left: 18px;
+    margin-left: 20px;
 }
 
 /* 슬라이드들 옆으로 정렬 */
@@ -55,12 +55,12 @@ li {
 .controller span {
     position: absolute;
     background-color: transparent;
-    color: black;
+    color: rgb(77, 74, 74);
     text-align: center;
     border-radius: 50%;
     padding: 10px 20px;
-    top: 50%;
-    font-size: 1.3em;
+    top: 40%;
+    font-size: 2rem;
     cursor: pointer;
 }
 
@@ -87,8 +87,4 @@ li {
 이전 화살표가 살짝 오른쪽으로 이동하는 효과*/
 .next:hover {
     transform: translateX(10px);
-}
-
-.dropdown-menu {
-    width: 160px;
 }
