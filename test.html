@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat";
+        }
+
+        .searchbox {
+            width: 80vw;
+            margin: 0 auto;
+        }
+
+        .header {
+            overflow: hidden;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            text-transform: uppercase;
+            color: white;
+            margin: 0;
+            margin-bottom: 8px;
+        }
+
+        #value {
+            padding: 6px;
+            font-size: 18px;
+            width: 80%;
+            border-radius: 6px;
+        }
+
+        #value:focus {
+            outline: none;
+        }
+
+        .container {
+            padding: 1%;
+        }
+
+        .item {
+            text-align: left;
+            margin-left: 8vw;
+            width: 100%;
+            height: 4vh;
+        }
+
+        .name {
+            font-size: 17px;
+            font-weight: 470;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="searchbox">
+        <div class="header">
+            <input onkeyup="filter()" type="text" id="value" placeholder="@인스타 ID">
+            <div class="item">
+                <span class="name">@AppleHs</span>
+            </div>
+
+            <div class="item">
+                <span class="name">@Flowers4_5</span>
+            </div>
+
+            <div class="item">
+                <span class="name">@garlic1013</span>
+            </div>
+
+            <div class="item">
+                <span class="name">@jjangGa98</span>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="search.js"></script>
+    <script>
+        let item = document.getElementsByClassName('item')
+
+    </script>
+</body>
+
+</html>
