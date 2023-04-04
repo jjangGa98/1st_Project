@@ -4,7 +4,7 @@ for (var i of all) {
 }
 
 function filter() {
-    const my_input = document.querySelector('#value');
+    const my_input = document.querySelector('.value');
     const all = document.querySelectorAll('.item');
     console.log(my_input.value);
 
@@ -20,7 +20,7 @@ function filter() {
         i.style.display = 'none';
     }
 
-    value = document.getElementById("value").value.toUpperCase();
+    value = document.getElementsByClassName("value").value.toUpperCase();
     item = document.getElementsByClassName("item");
 
     for (i = 0; i < item.length; i++) {
