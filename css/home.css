@@ -7,7 +7,18 @@
 #navBar {
     margin-top: 20px;
     background-color: white;
+}
 
+#btnMypage,
+#btnFeed,
+#btnLogin,
+#btnSign {
+    color: #4C4C4C; 
+    font-weight: bold;
+}
+
+#searchText {
+    margin-left: 50px;
 }
 
 #hIcon {
@@ -21,7 +32,6 @@
 
 .navbar-brand {
     margin-left: 5px;
-    font-size: 1.8rem;
 }
 
 #btnDrop {
@@ -29,7 +39,7 @@
 }
 
 #img-searchIcon {
-    background: url("images/검색 아이콘.png");
+    background: url("../images/검색 아이콘.png");
     width: 30px;
     height: 30px;
     margin-right: 50px;

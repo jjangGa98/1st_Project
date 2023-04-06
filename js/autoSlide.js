@@ -20,7 +20,8 @@ const pagination = document.querySelector(".slide_pagination");
 for (let i = 0; i < maxSlide; i++) {
     if (i === 0) pagination.innerHTML += `<li class="active">•</li>`;
     else pagination.innerHTML += `<li>•</li>`;
-}
+} 
+
 
 const paginationItems = document.querySelectorAll(".slide_pagination > li");
 
