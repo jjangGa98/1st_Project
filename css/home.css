@@ -23,26 +23,27 @@
 
 #hIcon {
     width: 45px;
-    margin-left: 50px;
+}
+
+.dropdown-menu{
+    width: 80px;
+    text-align: center;
 }
 
 .nav-item {
     margin-left: 50px;
 }
 
-.navbar-brand {
-    margin-left: 5px;
-}
-
-#btnDrop {
-    margin-left: 50px;
+#homeName{
+    margin-left: 10px;
+    font-size: 1.8rem;
+    font-style: italic;
 }
 
 #img-searchIcon {
     background: url("../images/검색 아이콘.png");
     width: 30px;
     height: 30px;
-    margin-right: 50px;
     border-style: none;
 }
 

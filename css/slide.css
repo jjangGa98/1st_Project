@@ -14,7 +14,7 @@ li {
 }
 
 /* 보여줄 구간의 높이와 넓이 설정 */
-#slideShow {
+#slideShow2 {
     width: 500px;
     height: 600px;
     position: relative;
@@ -26,7 +26,7 @@ li {
 }
 
 
-.slides {
+.slides2 {
     position: absolute;
     left: 0;
     top: 0;
@@ -38,17 +38,17 @@ li {
 
 /* 첫 번째 슬라이드 가운데에 정렬하기위해
   첫번째 슬라이드만 margin-left조정 */
-.slides li:first-child {
+.slides2 li:first-child {
     margin-left: 20px;
 }
 
 /* 슬라이드들 옆으로 정렬 */
-.slides li:not(:last-child) {
+.slides2 li:not(:last-child) {
     float: left;
     margin-right: 100px;
 }
 
-.slides li {
+.slides2 li {
     float: left;
 }
 

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../images/홈아이콘.png" rel="shortcut icon" type="image/x-icon">
+    <title>Homestagram</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/slide.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+radius 50%
+<body>
+    <!-- #EEE5F0 배경색 -->
+    <div>
+        <!-- width 1201 -->
+        <nav class="navbar navbar-expand-lg -white" id="navBar">
+            <div class="container-fluid">
+                <!-- 홈 아이콘 -->
+                <img src="../images/홈아이콘.png" id="hIcon">
+                <a class="navbar-brand" href="../html/home.html"
+                    style="font-size: 1.8rem; font-style: italic;">𝓱𝓸𝓶𝓮𝓼𝓽𝓪𝓰𝓻𝓪𝓶</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../html/feed1.html"
+                                id="btnMypage">MyPage</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" id="btnFeed">Feed
+                            </a>
+                            <ul class="dropdown-menu" style="width: 110px;">
+                                <li><a class="dropdown-item" href="#">팔로워높은순</a></li>
+                                <li><a class="dropdown-item" href="#">좋아요높은순</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="btnLogin" aria-current="page"
+                                href="../html/login.html">Login</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" id="searchText" type="search" placeholder="Search"
+                            aria-label="Search" style="width: 250px;">
+
+                        <!-- 검색 아이콘 -->
+                        <input type="button" id="img-searchIcon" />
+                </div>
+                </form>
+            </div>
+    </div>
+    </nav>
+    <div class="container" style="margin-top: 100px;">
+        <div class="like">
+            <!-- Content here -->
+
+            <div class="card mb-3" style="min-width: 380px; max-width: 400px; margin-left: 50px;" id="followCard">
+                <div class="followimg">
+                    <div class="row g-0">
+                        <div class="col-md-2">
+                            <img style="width: 50px; height: 50px;" src="../images/프로필 아이콘.png"
+                                class="img-fluid rounded-start" alt="...">
+                        </div> 사진간격 5px씩
+                        <div class="col-md-10">
+                            <div class="card-body">
+                                <h5 class="card-title">@jjangGa98<span
+                                        style="font-size: 0.8rem; margin-left: 15px; color: #09ADDB;">#10평미만
+                                        #원룸</span></h5><br><br>
+                            </div>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb" style="margin: 0 auto;">
+                                    <li class="breadcrumb-item active" aria-current="page">팔로워 <span id="cnt">890</span>
+                                    </li>
+                                    <li class="breadcrumb-item active" aria-current="page">팔로잉 69</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="footer">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+                </ul>
+                <p class="text-center text-muted">&copy; 2023 Homestagram, Inc</p>
+            </footer>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="../js/slide.js"></script>
+</body>
+
+</html>

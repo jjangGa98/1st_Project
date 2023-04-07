@@ -1,4 +1,4 @@
-.slide {
+.autoslide {
     /* layout */
     display: flex;
     flex-wrap: nowrap;
@@ -10,13 +10,14 @@
     position: relative;
 
     /* size */
-    width: 100%;
+    width: 500px;
+    height: 650px;
 
     /* slide drag를 위해 DOM요소가 드래그로 선택되는것을 방지 */
     user-select: none;
 }
 
-.slide_item {
+.autoslide_item {
     /* layout */
     display: flex;
     align-items: center;
@@ -27,8 +28,7 @@
     left: 0px;
 
     /* size */
-    width: 100%;
-    height: 500px;
+    width: 500px;
     /* flex item의 flex-shrink는 기본값이 1이므로 컨테이너 크기에 맞게 줄어드는데, 슬라이드를 구현할 것이므로 줄어들지 않도록 0을 준다. */
     flex-shrink: 0;
 
@@ -36,7 +36,7 @@
     transition: left 0.4s;
 }
 
-.slide_button {
+.autoslide_button {
     /* layout */
     display: flex;
     justify-content: center;
@@ -48,22 +48,32 @@
     top: calc(50% - 20px);
 
     /* size */
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
 
     /* style */
     border-radius: 100%;
-    background-color: #9c9996;
     cursor: pointer;
 }
 
-.slide_prev_button {
+.autoslide_prev_button {
     left: 10px;
+    font-size: 1.8rem;
 }
 
-.slide_next_button {
-    right: 10px;
+.autoslide_prev_button:hover {
+    background-color: rgb(194, 191, 191);
 }
+
+.autoslide_next_button {
+    right: 10px;
+    font-size: 1.8rem;
+}
+
+.autoslide_next_button:hover {
+    background-color: rgb(194, 191, 191);
+}
+
 
 /* 페이지네이션 스타일 */
 ul,
@@ -73,7 +83,7 @@ li {
     margin: 0;
 }
 
-.slide_pagination {
+.autoslide_pagination {
     /* layout */
     display: flex;
     gap: 5px;
@@ -86,7 +96,7 @@ li {
     transform: translateX(-50%);
 }
 
-.slide_pagination>li {
+.autoslide_pagination>li {
     /* 현재 슬라이드가 아닌 것은 투명도 부여 */
     color: #7fb5ff88;
     cursor: pointer;
@@ -94,12 +104,12 @@ li {
 }
 
 
-.slide_pagination>li.active {
+.autoslide_pagination>li.active {
     /* 현재 슬라이드 색상은 투명도 없이 */
     color: #354254;
 }
 
-.slide_item_duplicate {
+.autoslide_item_duplicate {
     display: flex;
     align-items: center;
     justify-content: center;

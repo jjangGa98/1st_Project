@@ -1,5 +1,5 @@
-const slides = document.querySelector('.slides'); //전체 슬라이드 컨테이너
-const slideImg = document.querySelectorAll('.slides li'); //모든 슬라이드들
+const slides = document.querySelector('.slides2'); //전체 슬라이드 컨테이너
+const slideImg = document.querySelectorAll('.slides2 li'); //모든 슬라이드들
 let currentIdx = 0; //현재 슬라이드 index
 const slideCount = slideImg.length; // 슬라이드 개수
 const prev = document.querySelector('.prev'); //이전 버튼
