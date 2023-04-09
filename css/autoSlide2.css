@@ -11,17 +11,11 @@
 
     /* size */
     width: 500px;
-    height: 650px;
+    height: 270px;
 
     /* slide drag를 위해 DOM요소가 드래그로 선택되는것을 방지 */
     user-select: none;
 }
-
-.house {
-    width: 400px;
-    height: 430px;
-}
-
 
 .autoslide_item {
     /* layout */
@@ -64,7 +58,7 @@
 
 .autoslide_prev_button {
     left: 10px;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 
 .autoslide_prev_button:hover {
@@ -73,7 +67,7 @@
 
 .autoslide_next_button {
     right: 10px;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 
 .autoslide_next_button:hover {

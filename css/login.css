@@ -1,0 +1,48 @@
+.card {
+    width: 25rem;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#logText {
+    color: rgb(85, 79, 79);
+    text-align: center;
+}
+
+#followBtn {
+    width: 270px;
+    margin: 0 auto;
+}
+
+#logid {
+    width: 270px; 
+    height: 40px; 
+    border-color: lightgray; 
+    border-radius: 5px; 
+    margin-top: 30px; 
+    padding-left: 10px;
+}
+
+#signId,
+#name,
+#nickName,
+#password {
+    width: 270px; 
+    height: 40px; 
+    border-color: lightgray; 
+    border-radius: 5px; 
+    margin-top: 10px; 
+    padding-left: 10px;
+}
+
+.list-group {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+#logBtn,
+#signBtn {
+    width: 270px; 
+    height: 40px;
+    margin-top: 10px; 
+}
